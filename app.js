@@ -5,7 +5,10 @@ const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&
 const date=t=>new Date(t).toLocaleString('en-CA',{timeZone:'America/Toronto',month:'short',day:'numeric',hour:'numeric',minute:'2-digit'});
 function status(s){$('status').textContent=s;$('status').className=s?'status show':'';}
 function render(){
- $('feeds').innerHTML=['police','fire'].map(k=>{const s=data?.sources?.[k],ok=fresh(s);return `<div class="feed"><strong>${k==='police'?'Toronto Police':'Toronto Fire'} · ${ok?'Current published snapshot':'Unavailable / expired'}</strong>${ok?'Source updated '+esc(date(s.updatedAt))+' ET':esc(s?.message||'No verified current snapshot. Incidents hidden.')}<br>${k==='police'?'TPS refreshes about every 20 minutes; calls remain published for four hours.':'City feed refreshes about every five minutes.'}</div>`;}).join('');
+ const sourceNames={police:'Police',fire:'Fire'};
+ $('feedSummary').textContent='Feed status · '+['police','fire'].map(k=>`${sourceNames[k]} ${fresh(data?.sources?.[k])?'current':'unavailable'}`).join(' · ');
+ $('feedSummary').dataset.warning=String(['police','fire'].some(k=>!fresh(data?.sources?.[k])));
+ $('feeds').innerHTML=['police','fire'].map(k=>{const s=data?.sources?.[k],ok=fresh(s);return `<div class="feed"><strong>Toronto ${sourceNames[k]}</strong> · ${ok?'Updated '+esc(date(s.updatedAt))+' ET':esc(s?.message||'No verified current snapshot. Incidents hidden.')}<p>${k==='police'?'Publishes about every 20 minutes; calls remain listed for four hours.':'Publishes about every five minutes.'}</p></div>`;}).join('');
  const needsLocation=(!$('radius').value||+$('radius').value>0||$('sort').value==='closest')&&!coords;
  if(needsLocation&&($('radius').value!=='0'||$('sort').value==='closest')){$('summary').textContent='Location needed';$('results').innerHTML='<div class="empty">Choose a location to filter by distance or sort by proximity.</div>';return;}
  const rows=select(data,{coords,radius:+$('radius').value,type:$('type').value,sort:$('sort').value});$('summary').textContent=`${rows.length} published calls`;
