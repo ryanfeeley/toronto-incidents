@@ -28,7 +28,7 @@ jobs:
       - run: python scripts/fetch_feeds.py
       - run: |
           mkdir -p dist/data
-          cp index.html style.css app.js core.mjs dist/
+          cp index.html style.css app.js core.mjs text.mjs dist/
           cp data/incidents.json dist/data/
           touch dist/.nojekyll
       - uses: actions/configure-pages@v5

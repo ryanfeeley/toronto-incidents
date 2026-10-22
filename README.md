@@ -30,3 +30,9 @@ Create a separate public repository `ryanfeeley/toronto-incidents`, push this di
 The workflow needs `pages: write` and `id-token: write`; repository administration and Actions workflow-write permissions are required for initial setup. It stages only app assets and the newly fetched JSON, not tests or any history. Snapshots live in Pages artifacts, not a growing Git commit archive. A source failure still deploys a truthful unavailable state. A failed build leaves the prior deployment, whose data expires in the browser.
 
 Expected Pages URL after successful deployment: https://ryanfeeley.github.io/toronto-incidents/ . Check the Actions deployment output before treating it as deployed.
+
+## Display text translations
+
+`text.mjs` exports `toTitleCase`, `formatEventName`, `formatAddress`, and `formatDetail`. These pure functions follow DineSafe’s title-case conventions: normalize whitespace and Unicode punctuation, lowercase minor words in event names, preserve address suffixes/directions, postal codes, agency acronyms, apparatus and division identifiers, and handle apostrophes and Mc names. The exported acronym set and address-word dictionary provide a central place for further exceptions.
+
+Examples: `FIRE - HIGHRISE RESIDENTIAL` → `Fire - Highrise Residential`; `LAKE SHORE BLVD E` → `Lake Shore Blvd E`; `O’CONNOR DR` → `O’Connor Dr`. Formatting runs at display time for cards, accessible map labels, incident-type option labels and the selected-address label. The original JSON, incident IDs, option values and map queries retain their source text. This is casing normalization, not language translation or an assertion that dispatch descriptions are verified outcomes.
