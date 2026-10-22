@@ -1,0 +1,8 @@
+import {test} from 'node:test';import assert from 'node:assert/strict';import {fresh,select,distance} from '../core.mjs';
+const now=Date.parse('2026-10-22T01:00:00Z'),time=new Date(now-60000).toISOString();
+const data={sources:{police:{status:'ok',updatedAt:time},fire:{status:'ok',updatedAt:time}},incidents:[{id:'1',source:'police',time,type:'Collision',lat:43.65,lon:-79.38},{id:'2',source:'fire',time,type:'Fire',lat:null,lon:null}]};
+test('expired and failed sources never appear, including future timestamps',()=>{assert.equal(fresh({status:'ok',updatedAt:'2020-01-01'},now),false);assert.equal(fresh({status:'ok',updatedAt:new Date(now+120000).toISOString()},now),false);assert.equal(select({...data,sources:{}},{now}).length,0);assert.equal(select({...data,sources:{police:{status:'unavailable',updatedAt:time}}},{now}).length,0);});
+test('citywide retains unlocated Fire calls; distance excludes them',()=>{assert.equal(select(data,{now}).length,2);assert.equal(select(data,{now,coords:{lat:43.65,lon:-79.38},radius:1}).length,1);assert.equal(select(data,{now,type:'Fire'})[0].id,'2');});
+test('proximity ordering puts unknown distance last',()=>{assert.deepEqual(select(data,{now,coords:{lat:43.65,lon:-79.38},sort:'closest'}).map(x=>x.id),['1','2']);assert.equal(distance({lat:43.65,lon:-79.38},{lat:43.65,lon:-79.38}),0);});
+test('old police records are never promoted by a new fetch',()=>{const old={...data,incidents:[{...data.incidents[0],time:'2026-10-21T12:00:00Z'}]};assert.equal(select(old,{now}).length,0);});
+test('recency sort uses actual incident time',()=>{const d={...data,incidents:[...data.incidents,{...data.incidents[0],id:'3',time:new Date(now-30000).toISOString()}]};assert.equal(select(d,{now})[0].id,'3');});

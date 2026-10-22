@@ -1,0 +1,1220 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-22T01:02:06.194382Z",
+  "sources": {
+    "police": {
+      "status": "ok",
+      "updatedAt": "2026-10-22T00:50:52.691000Z",
+      "fetchedAt": "2026-10-22T01:02:06.194382Z",
+      "count": 106
+    },
+    "fire": {
+      "status": "ok",
+      "updatedAt": "2026-10-22T01:00:02Z",
+      "fetchedAt": "2026-10-22T01:02:06.194382Z",
+      "count": 14
+    }
+  },
+  "incidents": [
+    {
+      "id": "TPS-104",
+      "source": "police",
+      "type": "HAZARD",
+      "time": "2026-10-22T00:44:43Z",
+      "address": "ASHBRIDGES BAY PARK RD - LAKE SHORE BLVD E",
+      "lat": 43.66232877988148,
+      "lon": -79.31483861853935,
+      "detail": "Division D55"
+    },
+    {
+      "id": "TPS-108",
+      "source": "police",
+      "type": "FIRE",
+      "time": "2026-10-22T00:44:23Z",
+      "address": "TRINITY BELLWOODS PARK TRL - LOBB AVE",
+      "lat": 43.64718059073519,
+      "lon": -79.41592212802462,
+      "detail": "Division D14"
+    },
+    {
+      "id": "TPS-97",
+      "source": "police",
+      "type": "FIGHT",
+      "time": "2026-10-22T00:42:59Z",
+      "address": "APPLETON AVE - GLENHOLME AVE",
+      "lat": 43.678995212392,
+      "lon": -79.43863551991787,
+      "detail": "Division D13"
+    },
+    {
+      "id": "TPS-100",
+      "source": "police",
+      "type": "THEFT JUST OCCURRED",
+      "time": "2026-10-22T00:42:57Z",
+      "address": "HUMBERCREST BLVD - GOOCH AVE",
+      "lat": 43.665260849366724,
+      "lon": -79.49501880849746,
+      "detail": "Division D11"
+    },
+    {
+      "id": "TPS-105",
+      "source": "police",
+      "type": "DAMAGE JUST OCCURRED",
+      "time": "2026-10-22T00:40:18Z",
+      "address": "JOHN ST - WIDMER ST",
+      "lat": 43.64912538822902,
+      "lon": -79.39078633891941,
+      "detail": "Division D52"
+    },
+    {
+      "id": "TPS-107",
+      "source": "police",
+      "type": "ROBBERY",
+      "time": "2026-10-22T00:38:42Z",
+      "address": "LN N ADELAIDE E PETER - RICHMOND ST W",
+      "lat": 43.64745078655443,
+      "lon": -79.3921757377494,
+      "detail": "Division D52"
+    },
+    {
+      "id": "TPS-106",
+      "source": "police",
+      "type": "UNKNOWN TROUBLE",
+      "time": "2026-10-22T00:35:36Z",
+      "address": "BLOOR ST W - PRINCE ARTHUR AVE",
+      "lat": 43.66925251064864,
+      "lon": -79.39788954279857,
+      "detail": "Division D52"
+    },
+    {
+      "id": "TPS-88",
+      "source": "police",
+      "type": "MISSING VULNERABLE PERSON",
+      "time": "2026-10-22T00:34:45Z",
+      "address": "RENNIE PARK TRL - BERESFORD AVE",
+      "lat": 43.64586723479309,
+      "lon": -79.4741434174943,
+      "detail": "Division D11"
+    },
+    {
+      "id": "TPS-103",
+      "source": "police",
+      "type": "UNKNOWN TROUBLE",
+      "time": "2026-10-22T00:33:21Z",
+      "address": "HAVENWAY GT - HAVENWAY GT",
+      "lat": 43.75801829663738,
+      "lon": -79.19027690124906,
+      "detail": "Division D43"
+    },
+    {
+      "id": "TPS-102",
+      "source": "police",
+      "type": "FOUND CHILD",
+      "time": "2026-10-22T00:24:22Z",
+      "address": "ARTECH CRT - SECROFT CRES",
+      "lat": 43.762639086659135,
+      "lon": -79.52141051272808,
+      "detail": "Division D31"
+    },
+    {
+      "id": "TPS-92",
+      "source": "police",
+      "type": "UNKNOWN TROUBLE",
+      "time": "2026-10-22T00:21:49Z",
+      "address": "YONGE ST - CHURCH ST",
+      "lat": 43.67080371004932,
+      "lon": -79.38419105054933,
+      "detail": "Division D51"
+    },
+    {
+      "id": "TPS-94",
+      "source": "police",
+      "type": "IMPAIRED DRIVER",
+      "time": "2026-10-22T00:19:47Z",
+      "address": "DON VALLEY PARKWAY N - PRINCE EDWARD VIADUCT",
+      "lat": 43.67591703393984,
+      "lon": -79.36038447787016,
+      "detail": "Division D33"
+    },
+    {
+      "id": "TPS-101",
+      "source": "police",
+      "type": "MISSING CHILD",
+      "time": "2026-10-22T00:19:45Z",
+      "address": "HEPC - BONSPIEL DR",
+      "lat": 43.79033699278598,
+      "lon": -79.19797767456957,
+      "detail": "Division D43"
+    },
+    {
+      "id": "TPS-79",
+      "source": "police",
+      "type": "MISSING VULNERABLE PERSON",
+      "time": "2026-10-22T00:19:45Z",
+      "address": "BIRCHMOUNT RD - MASSEY CREEK",
+      "lat": 43.73006187073596,
+      "lon": -79.27790929759237,
+      "detail": "Division D41"
+    },
+    {
+      "id": "TPS-99",
+      "source": "police",
+      "type": "SEE AMBULANCE",
+      "time": "2026-10-22T00:11:07Z",
+      "address": "MORNINGSIDE AVE - MILITARY TRL",
+      "lat": 43.78927219348308,
+      "lon": -79.19434398073707,
+      "detail": "Division D43"
+    },
+    {
+      "id": "TPS-58",
+      "source": "police",
+      "type": "THEFT",
+      "time": "2026-10-22T00:08:03Z",
+      "address": "BRIMLEY RD - DANFORTH RD",
+      "lat": 43.737099481041014,
+      "lon": -79.24623024437557,
+      "detail": "Division D43"
+    },
+    {
+      "id": "TPS-96",
+      "source": "police",
+      "type": "UNKNOWN TROUBLE",
+      "time": "2026-10-22T00:06:20Z",
+      "address": "THE EAST MALL - GIBBS 427 C N RAMP",
+      "lat": 43.6383293132569,
+      "lon": -79.55720538449542,
+      "detail": "Division D22"
+    },
+    {
+      "id": "TPS-68",
+      "source": "police",
+      "type": "ARREST",
+      "time": "2026-10-22T00:00:53Z",
+      "address": "KIPLING AVE - FINCH AVE W",
+      "lat": 43.74325917379369,
+      "lon": -79.58210637015169,
+      "detail": "Division D23"
+    },
+    {
+      "id": "TPS-91",
+      "source": "police",
+      "type": "ASSAULT",
+      "time": "2026-10-21T23:56:29Z",
+      "address": "SANDHURST CRCL - MCCOWAN RD",
+      "lat": 43.80803136000409,
+      "lon": -79.26649114007334,
+      "detail": "Division D42"
+    },
+    {
+      "id": "TPS-98",
+      "source": "police",
+      "type": "ARREST",
+      "time": "2026-10-21T23:55:30Z",
+      "address": "COLLEGE PL - DUNDAS ST W",
+      "lat": 43.65218319363875,
+      "lon": -79.40660193185823,
+      "detail": "Division D14"
+    },
+    {
+      "id": "TPS-93",
+      "source": "police",
+      "type": "FIRE",
+      "time": "2026-10-21T23:54:33Z",
+      "address": "LAIRD DR - ",
+      "lat": 43.703768581227195,
+      "lon": -79.36084900837595,
+      "detail": "Division D53"
+    },
+    {
+      "id": "TPS-87",
+      "source": "police",
+      "type": "ROBBERY",
+      "time": "2026-10-21T23:54:22Z",
+      "address": "MOWAT AVE - DUFFERIN ST",
+      "lat": 43.639225783416514,
+      "lon": -79.42603702465301,
+      "detail": "Division D14"
+    },
+    {
+      "id": "TPS-95",
+      "source": "police",
+      "type": "ROBBERY",
+      "time": "2026-10-21T23:53:29Z",
+      "address": "STEVENSON RD - HIGHFIELD PARK TRL",
+      "lat": 43.743435272358866,
+      "lon": -79.58739696750324,
+      "detail": "Division D23"
+    },
+    {
+      "id": "TPS-86",
+      "source": "police",
+      "type": "THEFT JUST OCCURRED",
+      "time": "2026-10-21T23:52:48Z",
+      "address": "CLINTON ST - LOOP LINE LANE",
+      "lat": 43.67185801870851,
+      "lon": -79.42033653302846,
+      "detail": "Division D14"
+    },
+    {
+      "id": "TPS-90",
+      "source": "police",
+      "type": "PERSONAL INJURY COLLISION",
+      "time": "2026-10-21T23:52:47Z",
+      "address": "JANE ST - WILSON AVE",
+      "lat": 43.72097784643953,
+      "lon": -79.50863794404951,
+      "detail": "Division HP"
+    },
+    {
+      "id": "TPS-89",
+      "source": "police",
+      "type": "PERSONAL INJURY COLLISION",
+      "time": "2026-10-21T23:49:26Z",
+      "address": "JANE ST - WILSON AVE",
+      "lat": 43.72097784643953,
+      "lon": -79.50863794404951,
+      "detail": "Division D31"
+    },
+    {
+      "id": "TPS-70",
+      "source": "police",
+      "type": "PERSONAL INJURY COLLISION",
+      "time": "2026-10-21T23:30:24Z",
+      "address": "JANE ST - FIRGROVE CRES",
+      "lat": 43.75483178313826,
+      "lon": -79.51704361195162,
+      "detail": "Division HP"
+    },
+    {
+      "id": "TPS-85",
+      "source": "police",
+      "type": "ARREST",
+      "time": "2026-10-21T23:29:21Z",
+      "address": "QUEEN ST W - PORTLAND ST",
+      "lat": 43.64771728729138,
+      "lon": -79.40141083286166,
+      "detail": "Division D14"
+    },
+    {
+      "id": "TPS-13",
+      "source": "police",
+      "type": "UNKNOWN TROUBLE",
+      "time": "2026-10-21T23:28:20Z",
+      "address": "LN N KING W DUFFERIN - MELBOURNE AVE",
+      "lat": 43.639225783416514,
+      "lon": -79.42603702465301,
+      "detail": "Division D14"
+    },
+    {
+      "id": "TPS-84",
+      "source": "police",
+      "type": "SOUND OF GUNSHOTS",
+      "time": "2026-10-21T23:28:10Z",
+      "address": "BIRCHMOUNT RD - NORTH WOODROW BLVD",
+      "lat": 43.71419039987332,
+      "lon": -79.27114129171035,
+      "detail": "Division D41"
+    },
+    {
+      "id": "TPS-83",
+      "source": "police",
+      "type": "PERSONAL INJURY COLLISION",
+      "time": "2026-10-21T23:25:44Z",
+      "address": "UNIVERSITY AVE - RICHMOND ST W",
+      "lat": 43.650047689151315,
+      "lon": -79.38643394064675,
+      "detail": "Division HP"
+    },
+    {
+      "id": "TPS-56",
+      "source": "police",
+      "type": "BREAK & ENTER",
+      "time": "2026-10-21T23:22:16Z",
+      "address": "BABINGTON CRT - ISLINGTON AVE",
+      "lat": 43.651813410997114,
+      "lon": -79.5294861935613,
+      "detail": "Division D22"
+    },
+    {
+      "id": "TPS-81",
+      "source": "police",
+      "type": "FIRE",
+      "time": "2026-10-21T23:21:18Z",
+      "address": "ANNIS RD - KINGSTON RD",
+      "lat": 43.736686988688184,
+      "lon": -79.21954987132742,
+      "detail": "Division D43"
+    },
+    {
+      "id": "TPS-80",
+      "source": "police",
+      "type": "PERSON WITH A GUN",
+      "time": "2026-10-21T23:18:51Z",
+      "address": "SYMINGTON AVE - PERTH AVE",
+      "lat": 43.67051493168426,
+      "lon": -79.45444362035516,
+      "detail": "Division D11"
+    },
+    {
+      "id": "TPS-82",
+      "source": "police",
+      "type": "HAZARD",
+      "time": "2026-10-21T23:18:46Z",
+      "address": "SHEPPARD AVE E - GREENBRIAR RD",
+      "lat": 43.768409191260055,
+      "lon": -79.38035121659044,
+      "detail": "Division D33"
+    },
+    {
+      "id": "TPS-78",
+      "source": "police",
+      "type": "ARREST",
+      "time": "2026-10-21T23:14:33Z",
+      "address": "QUEEN ST W - PORTLAND ST",
+      "lat": 43.64771728729138,
+      "lon": -79.40141083286166,
+      "detail": "Division D14"
+    },
+    {
+      "id": "TPS-32",
+      "source": "police",
+      "type": "DAMAGE IN PROGRESS",
+      "time": "2026-10-21T23:13:16Z",
+      "address": "EVANS AVE - BROWNS LI N GARDINER X E RAMP",
+      "lat": 43.6143098035729,
+      "lon": -79.54605068401483,
+      "detail": "Division D22"
+    },
+    {
+      "id": "TPS-9",
+      "source": "police",
+      "type": "MISSING CHILD",
+      "time": "2026-10-21T23:09:19Z",
+      "address": "HEATHROW DR - CHALKFARM DR",
+      "lat": 43.727986861303435,
+      "lon": -79.50808755141259,
+      "detail": "Division D31"
+    },
+    {
+      "id": "TPS-76",
+      "source": "police",
+      "type": "FIRE",
+      "time": "2026-10-21T23:07:02Z",
+      "address": "RAGLAN AVE - ST CLAIR AVE W",
+      "lat": 43.68295701878795,
+      "lon": -79.41953523337158,
+      "detail": "Division D13"
+    },
+    {
+      "id": "TPS-60",
+      "source": "police",
+      "type": "UNKNOWN TROUBLE",
+      "time": "2026-10-21T23:06:15Z",
+      "address": "CORVETTE AVE - ",
+      "lat": 43.727841586413966,
+      "lon": -79.26421921117146,
+      "detail": "Division D41"
+    },
+    {
+      "id": "TPS-57",
+      "source": "police",
+      "type": "UNKNOWN TROUBLE",
+      "time": "2026-10-21T23:06:13Z",
+      "address": "BEACONSFIELD AVE - NORTHCOTE AVE",
+      "lat": 43.642756187734854,
+      "lon": -79.42595762467948,
+      "detail": "Division D14"
+    },
+    {
+      "id": "TPS-77",
+      "source": "police",
+      "type": "HAZARD",
+      "time": "2026-10-21T23:01:28Z",
+      "address": "FINCH AVE W - CARNEY RD",
+      "lat": 43.77704832680245,
+      "lon": -79.42780906838694,
+      "detail": "Division HP"
+    },
+    {
+      "id": "TPS-34",
+      "source": "police",
+      "type": "THEFT JUST OCCURRED",
+      "time": "2026-10-21T23:00:02Z",
+      "address": "MCCOWAN RD - 3100 KINGSTON RD",
+      "lat": 43.72743999147862,
+      "lon": -79.22967264957498,
+      "detail": "Division D43"
+    },
+    {
+      "id": "TPS-73",
+      "source": "police",
+      "type": "SEE AMBULANCE",
+      "time": "2026-10-21T22:58:13Z",
+      "address": "ST CLARENS AVE - LANSDOWNE AVE",
+      "lat": 43.664895420310195,
+      "lon": -79.4457321202746,
+      "detail": "Division D11"
+    },
+    {
+      "id": "TPS-6",
+      "source": "police",
+      "type": "THEFT",
+      "time": "2026-10-21T22:58:05Z",
+      "address": "SIMCOE ST - ST PATRICK ST",
+      "lat": 43.65448999359373,
+      "lon": -79.39032524083046,
+      "detail": "Division D52"
+    },
+    {
+      "id": "TPS-75",
+      "source": "police",
+      "type": "INDECENT EXPOSURE JUST OCCURRED",
+      "time": "2026-10-21T22:55:32Z",
+      "address": "LN E YONGE N GREENFIELD AVE - DORIS AVE",
+      "lat": 43.76326498750566,
+      "lon": -79.41137799465328,
+      "detail": "Division D32"
+    },
+    {
+      "id": "TPS-72",
+      "source": "police",
+      "type": "IMPAIRED DRIVER",
+      "time": "2026-10-21T22:52:25Z",
+      "address": "ELLESMERE RD - NEILSON RD",
+      "lat": 43.78259619621601,
+      "lon": -79.20496340611702,
+      "detail": "Division D43"
+    },
+    {
+      "id": "TPS-74",
+      "source": "police",
+      "type": "INDECENT EXPOSURE JUST OCCURRED",
+      "time": "2026-10-21T22:49:27Z",
+      "address": "LN E YONGE N GREENFIELD AVE - DORIS AVE",
+      "lat": 43.76326498750566,
+      "lon": -79.41137799465328,
+      "detail": "Division PK32"
+    },
+    {
+      "id": "TPS-20",
+      "source": "police",
+      "type": "MISSING VULNERABLE PERSON",
+      "time": "2026-10-21T22:44:39Z",
+      "address": "LN N ARDAGH W EVANS - LN S ANNETTE E EVANS",
+      "lat": 43.65620106237956,
+      "lon": -79.48496182028856,
+      "detail": "Division D11"
+    },
+    {
+      "id": "TPS-71",
+      "source": "police",
+      "type": "PERSON WITH A KNIFE",
+      "time": "2026-10-21T22:41:00Z",
+      "address": "STAVELY CRES - PONOCA RD",
+      "lat": 43.716098898662025,
+      "lon": -79.56266275209224,
+      "detail": "Division D23"
+    },
+    {
+      "id": "TPS-69",
+      "source": "police",
+      "type": "THEFT JUST OCCURRED",
+      "time": "2026-10-21T22:38:51Z",
+      "address": "YONGE ST - VICTORIA ST",
+      "lat": 43.656324795428525,
+      "lon": -79.38091294638609,
+      "detail": "Division D52"
+    },
+    {
+      "id": "TPS-3",
+      "source": "police",
+      "type": "FRAUD",
+      "time": "2026-10-21T22:37:33Z",
+      "address": "CANTERBURY PL - BEECROFT RD",
+      "lat": 43.771695191471466,
+      "lon": -79.41459646439912,
+      "detail": "Division D32"
+    },
+    {
+      "id": "TPS-62",
+      "source": "police",
+      "type": "THEFT JUST OCCURRED",
+      "time": "2026-10-21T22:37:22Z",
+      "address": "CEDAR DR - ",
+      "lat": 43.743891286931685,
+      "lon": -79.2156214869008,
+      "detail": "Division D43"
+    },
+    {
+      "id": "TPS-67",
+      "source": "police",
+      "type": "PERSONAL INJURY COLLISION",
+      "time": "2026-10-21T22:37:17Z",
+      "address": "RICHMOND ST E - YONGE ST",
+      "lat": 43.65169079079441,
+      "lon": -79.37895674614553,
+      "detail": "Division HP"
+    },
+    {
+      "id": "TPS-65",
+      "source": "police",
+      "type": "HAZARD",
+      "time": "2026-10-21T22:36:10Z",
+      "address": "GARDINER XWY W - YORK ST",
+      "lat": 43.64175478085846,
+      "lon": -79.38100464321748,
+      "detail": "Division HP"
+    },
+    {
+      "id": "TPS-33",
+      "source": "police",
+      "type": "THEFT JUST OCCURRED",
+      "time": "2026-10-21T22:33:57Z",
+      "address": "HARNESS RD - 27 HWY N",
+      "lat": 43.72051007309702,
+      "lon": -79.5944397874052,
+      "detail": "Division D23"
+    },
+    {
+      "id": "TPS-53",
+      "source": "police",
+      "type": "PERSONAL INJURY COLLISION",
+      "time": "2026-10-21T22:31:13Z",
+      "address": "BAYVIEW AVE - FLEMING CRES",
+      "lat": 43.70694334901672,
+      "lon": -79.37562068422513,
+      "detail": "Division HP"
+    },
+    {
+      "id": "TPS-55",
+      "source": "police",
+      "type": "PROPERTY DAMAGE COLLISION",
+      "time": "2026-10-21T22:26:39Z",
+      "address": "QUEENS QUAY E - HARBOUR ST",
+      "lat": 43.64195188105551,
+      "lon": -79.37468264743217,
+      "detail": "Division D51"
+    },
+    {
+      "id": "TPS-48",
+      "source": "police",
+      "type": "ARREST",
+      "time": "2026-10-21T22:22:16Z",
+      "address": "KINGSTON RD - GLEN EVEREST RD",
+      "lat": 43.697754530991965,
+      "lon": -79.25670668872313,
+      "detail": "Division HP"
+    },
+    {
+      "id": "TPS-42",
+      "source": "police",
+      "type": "MISSING CHILD",
+      "time": "2026-10-21T22:20:06Z",
+      "address": "PAPE AVE - COSBURN AVE",
+      "lat": 43.68941219925192,
+      "lon": -79.34881651519353,
+      "detail": "Division D55"
+    },
+    {
+      "id": "TPS-66",
+      "source": "police",
+      "type": "ARREST",
+      "time": "2026-10-21T22:18:00Z",
+      "address": "THYRA AVE - VICTORIA PARK AVE",
+      "lat": 43.69122472524528,
+      "lon": -79.28834606133788,
+      "detail": "Division D55"
+    },
+    {
+      "id": "TPS-64",
+      "source": "police",
+      "type": "ARREST",
+      "time": "2026-10-21T22:14:29Z",
+      "address": "HEPC - NOVA RD",
+      "lat": 43.619508310527635,
+      "lon": -79.55373578807699,
+      "detail": "Division D22"
+    },
+    {
+      "id": "TPS-63",
+      "source": "police",
+      "type": "THEFT JUST OCCURRED",
+      "time": "2026-10-21T22:13:25Z",
+      "address": "MARKHAM RD - ",
+      "lat": 43.78178169646291,
+      "lon": -79.2338520249659,
+      "detail": "Division D43"
+    },
+    {
+      "id": "TPS-15",
+      "source": "police",
+      "type": "PERSONAL INJURY COLLISION",
+      "time": "2026-10-21T22:11:44Z",
+      "address": "REESOR RD - OLD FINCH AVE",
+      "lat": 43.82738806497264,
+      "lon": -79.17922053786779,
+      "detail": "Division HP"
+    },
+    {
+      "id": "TPS-45",
+      "source": "police",
+      "type": "PERSONAL INJURY COLLISION",
+      "time": "2026-10-21T22:10:07Z",
+      "address": "MORNINGSIDE AVE - WHARNSBY DR",
+      "lat": 43.82308268793482,
+      "lon": -79.23008279909939,
+      "detail": "Division HP"
+    },
+    {
+      "id": "TPS-61",
+      "source": "police",
+      "type": "THEFT IN PROGRESS",
+      "time": "2026-10-21T22:05:40Z",
+      "address": "HEPC - NOVA RD",
+      "lat": 43.619508310527635,
+      "lon": -79.55373578807699,
+      "detail": "Division D22"
+    },
+    {
+      "id": "TPS-59",
+      "source": "police",
+      "type": "HAZARD",
+      "time": "2026-10-21T22:00:43Z",
+      "address": "LN N LAPPIN E LANSDOWNE - LN S DUPONT E LANSDOWNE",
+      "lat": 43.66672392285862,
+      "lon": -79.44645392062525,
+      "detail": "Division D11"
+    },
+    {
+      "id": "TPS-50",
+      "source": "police",
+      "type": "UNKNOWN TROUBLE",
+      "time": "2026-10-21T21:52:54Z",
+      "address": "WYCHCREST AVE - FRANKEL - LAMBERT PARK TRL",
+      "lat": 43.67247472041447,
+      "lon": -79.42650783020912,
+      "detail": "Division D13"
+    },
+    {
+      "id": "TPS-54",
+      "source": "police",
+      "type": "UNKNOWN TROUBLE",
+      "time": "2026-10-21T21:51:29Z",
+      "address": "BERKELEY ST - PARLIAMENT ST",
+      "lat": 43.6553338944376,
+      "lon": -79.36574395616843,
+      "detail": "Division D51"
+    },
+    {
+      "id": "TPS-43",
+      "source": "police",
+      "type": "DISORDERLIES",
+      "time": "2026-10-21T21:51:17Z",
+      "address": "BOND ST - DUNDAS ST E",
+      "lat": 43.65625839536214,
+      "lon": -79.37830414810317,
+      "detail": "Division D51"
+    },
+    {
+      "id": "TPS-7",
+      "source": "police",
+      "type": "ASSAULT JUST OCCURRED",
+      "time": "2026-10-21T21:48:14Z",
+      "address": "SATURN RD - TRIBURNHAM PL",
+      "lat": 43.64235802653818,
+      "lon": -79.57705408941823,
+      "detail": "Division D22"
+    },
+    {
+      "id": "TPS-52",
+      "source": "police",
+      "type": "PERSONAL INJURY COLLISION",
+      "time": "2026-10-21T21:47:21Z",
+      "address": "THE WEST MALL - BURNHAMTHORPE RD",
+      "lat": 43.64454781096825,
+      "lon": -79.5672397764974,
+      "detail": "Division HP"
+    },
+    {
+      "id": "TPS-12",
+      "source": "police",
+      "type": "PERSON WITH A KNIFE",
+      "time": "2026-10-21T21:46:03Z",
+      "address": "COATSWORTH ST - POULETT ST",
+      "lat": 43.65886509796886,
+      "lon": -79.36649155685076,
+      "detail": "Division D51"
+    },
+    {
+      "id": "TPS-10",
+      "source": "police",
+      "type": "IMPAIRED DRIVER",
+      "time": "2026-10-21T21:45:48Z",
+      "address": "STEELES AVE W - PINE VALLEY-VA DR",
+      "lat": 43.76648401659636,
+      "lon": -79.5647097361969,
+      "detail": "Division D31"
+    },
+    {
+      "id": "TPS-27",
+      "source": "police",
+      "type": "FIRE",
+      "time": "2026-10-21T21:45:48Z",
+      "address": "JOHN ST - WINDSOR ST",
+      "lat": 43.643702682806364,
+      "lon": -79.3899764377768,
+      "detail": "Division D52"
+    },
+    {
+      "id": "TPS-44",
+      "source": "police",
+      "type": "PERSONAL INJURY COLLISION",
+      "time": "2026-10-21T21:43:27Z",
+      "address": "MORNINGSIDE AVE - WHARNSBY DR",
+      "lat": 43.82308268793482,
+      "lon": -79.23008279909939,
+      "detail": "Division D42"
+    },
+    {
+      "id": "TPS-40",
+      "source": "police",
+      "type": "UNKNOWN TROUBLE",
+      "time": "2026-10-21T21:42:52Z",
+      "address": "SAMOR RD - ORFUS RD",
+      "lat": 43.718279055503984,
+      "lon": -79.45561380592014,
+      "detail": "Division D32"
+    },
+    {
+      "id": "TPS-5",
+      "source": "police",
+      "type": "FRAUD",
+      "time": "2026-10-21T21:39:58Z",
+      "address": "LN W BATHURST S CHARLESWOOD - BARCLAY RD",
+      "lat": 43.73795726065288,
+      "lon": -79.43619350631862,
+      "detail": "Division D32"
+    },
+    {
+      "id": "TPS-51",
+      "source": "police",
+      "type": "DEMONSTRATION",
+      "time": "2026-10-21T21:38:41Z",
+      "address": "BLOOR ST W - MONTGOMERY RD",
+      "lat": 43.64666693796605,
+      "lon": -79.51458099666723,
+      "detail": "Division PSRT1"
+    },
+    {
+      "id": "TPS-28",
+      "source": "police",
+      "type": "HOLDING LOST ELDERLY",
+      "time": "2026-10-21T21:38:34Z",
+      "address": "MORNINGSIDE AVE - MORNINGVIEW TRL",
+      "lat": 43.81333362243865,
+      "lon": -79.20638328847622,
+      "detail": "Division D42"
+    },
+    {
+      "id": "TPS-24",
+      "source": "police",
+      "type": "ARREST",
+      "time": "2026-10-21T21:38:14Z",
+      "address": "BLUE RIDGE RD - AMBROSE RD",
+      "lat": 43.77035309628378,
+      "lon": -79.37125652386442,
+      "detail": "Division D33"
+    },
+    {
+      "id": "TPS-38",
+      "source": "police",
+      "type": "UNKNOWN TROUBLE",
+      "time": "2026-10-21T21:37:40Z",
+      "address": "PRUDENTIAL DR - LAWRENCE AVE E",
+      "lat": 43.74966907123565,
+      "lon": -79.26447153608177,
+      "detail": "Division D41"
+    },
+    {
+      "id": "TPS-46",
+      "source": "police",
+      "type": "SEE AMBULANCE",
+      "time": "2026-10-21T21:37:03Z",
+      "address": "JARVIS ST - QUEEN ST E",
+      "lat": 43.653724792828484,
+      "lon": -79.37322385064546,
+      "detail": "Division D51"
+    },
+    {
+      "id": "TPS-49",
+      "source": "police",
+      "type": "PROPERTY DAMAGE COLLISION",
+      "time": "2026-10-21T21:34:54Z",
+      "address": "GARDINER XWY E - JAMESON AVE",
+      "lat": 43.632512777462566,
+      "lon": -79.43429962217311,
+      "detail": "Division 2GRP"
+    },
+    {
+      "id": "TPS-47",
+      "source": "police",
+      "type": "PROPERTY DAMAGE COLLISION",
+      "time": "2026-10-21T21:33:07Z",
+      "address": " - ",
+      "lat": 43.63944019492744,
+      "lon": -79.45942081426813,
+      "detail": "Division HP"
+    },
+    {
+      "id": "TPS-14",
+      "source": "police",
+      "type": "PERSONAL INJURY COLLISION",
+      "time": "2026-10-21T21:31:27Z",
+      "address": "REESOR RD - OLD FINCH AVE",
+      "lat": 43.82738806497264,
+      "lon": -79.17922053786779,
+      "detail": "Division D42"
+    },
+    {
+      "id": "TPS-37",
+      "source": "police",
+      "type": "FOUND CHILD",
+      "time": "2026-10-21T21:31:09Z",
+      "address": "VICTORIA PARK AVE - LAWRENCE AVE E",
+      "lat": 43.74213963181549,
+      "lon": -79.30978147425118,
+      "detail": "Division D33"
+    },
+    {
+      "id": "TPS-30",
+      "source": "police",
+      "type": "FIGHT",
+      "time": "2026-10-21T21:27:56Z",
+      "address": "MACDONALD AVE - PATIKA AVE",
+      "lat": 43.70403465377253,
+      "lon": -79.50923344597652,
+      "detail": "Division D23"
+    },
+    {
+      "id": "TPS-2",
+      "source": "police",
+      "type": "ARREST",
+      "time": "2026-10-21T21:27:21Z",
+      "address": "CHETTA PL - DIXON PARK TRL",
+      "lat": 43.69578967678703,
+      "lon": -79.55215095635832,
+      "detail": "Division D23"
+    },
+    {
+      "id": "TPS-41",
+      "source": "police",
+      "type": "ARREST",
+      "time": "2026-10-21T21:27:04Z",
+      "address": "QUEEN ST E - SHUTER ST",
+      "lat": 43.65456039366406,
+      "lon": -79.37761274799806,
+      "detail": "Division D51"
+    },
+    {
+      "id": "TPS-29",
+      "source": "police",
+      "type": "FIGHT",
+      "time": "2026-10-21T21:26:49Z",
+      "address": "MACDONALD AVE - PATIKA AVE",
+      "lat": 43.70403465377253,
+      "lon": -79.50923344597652,
+      "detail": "Division D12"
+    },
+    {
+      "id": "TPS-36",
+      "source": "police",
+      "type": "SEE AMBULANCE",
+      "time": "2026-10-21T21:26:11Z",
+      "address": "LN N DUNDAS E GEORGE - GERRARD ST E",
+      "lat": 43.66068869979243,
+      "lon": -79.3747326519609,
+      "detail": "Division D51"
+    },
+    {
+      "id": "TPS-31",
+      "source": "police",
+      "type": "PERSONAL INJURY COLLISION",
+      "time": "2026-10-21T21:25:40Z",
+      "address": "STEELES AVE W - WESTON RD",
+      "lat": 43.77031729895185,
+      "lon": -79.54650692584586,
+      "detail": "Division D31"
+    },
+    {
+      "id": "TPS-39",
+      "source": "police",
+      "type": "ARREST",
+      "time": "2026-10-21T21:22:38Z",
+      "address": "PORTLAND ST - RYERSON AVE",
+      "lat": 43.64771728729138,
+      "lon": -79.40141083286166,
+      "detail": "Division D14"
+    },
+    {
+      "id": "TPS-11",
+      "source": "police",
+      "type": "THEFT JUST OCCURRED",
+      "time": "2026-10-21T21:20:01Z",
+      "address": "SANDWELL DR - MARTIN GROVE RD",
+      "lat": 43.683857445021324,
+      "lon": -79.56486288510449,
+      "detail": "Division D23"
+    },
+    {
+      "id": "TPS-35",
+      "source": "police",
+      "type": "FIGHT",
+      "time": "2026-10-21T21:18:22Z",
+      "address": "LAWRENCE AVE W - PINE ST",
+      "lat": 43.70197875703024,
+      "lon": -79.50831634802276,
+      "detail": "Division PK23"
+    },
+    {
+      "id": "TPS-23",
+      "source": "police",
+      "type": "UNKNOWN TROUBLE",
+      "time": "2026-10-21T21:17:30Z",
+      "address": "BLOOR ST W - HUMBER RIVER",
+      "lat": 43.64809522512106,
+      "lon": -79.49082880660724,
+      "detail": "Division D22"
+    },
+    {
+      "id": "TPS-21",
+      "source": "police",
+      "type": "THEFT JUST OCCURRED",
+      "time": "2026-10-21T21:16:47Z",
+      "address": "BRIMLEY RD - DANFORTH RD",
+      "lat": 43.737099481041014,
+      "lon": -79.24623024437557,
+      "detail": "Division D43"
+    },
+    {
+      "id": "TPS-22",
+      "source": "police",
+      "type": "UNKNOWN TROUBLE",
+      "time": "2026-10-21T21:16:45Z",
+      "address": "BLOOR ST W - HUMBER RIVER",
+      "lat": 43.64809522512106,
+      "lon": -79.49082880660724,
+      "detail": "Division D11"
+    },
+    {
+      "id": "TPS-26",
+      "source": "police",
+      "type": "ARREST",
+      "time": "2026-10-21T21:16:39Z",
+      "address": "QUEEN ST E - SHUTER ST",
+      "lat": 43.65456039366406,
+      "lon": -79.37761274799806,
+      "detail": "Division D51"
+    },
+    {
+      "id": "TPS-25",
+      "source": "police",
+      "type": "HOLDUP ALARM",
+      "time": "2026-10-21T21:15:27Z",
+      "address": "JANE OSLER BLVD - 401 C E YORKDALE RD RAMP",
+      "lat": 43.723657055150866,
+      "lon": -79.45130621630454,
+      "detail": "Division D32"
+    },
+    {
+      "id": "TPS-1",
+      "source": "police",
+      "type": "DISPUTE",
+      "time": "2026-10-21T21:07:15Z",
+      "address": "LINKWOOD LANE - LINKWOOD LANE",
+      "lat": 43.71864005846295,
+      "lon": -79.32558053587167,
+      "detail": "Division D55"
+    },
+    {
+      "id": "TPS-16",
+      "source": "police",
+      "type": "THEFT JUST OCCURRED",
+      "time": "2026-10-21T21:07:01Z",
+      "address": "TEAGARDEN CRT - SPRING GARDEN AVE",
+      "lat": 43.768185189116764,
+      "lon": -79.38840431272321,
+      "detail": "Division D33"
+    },
+    {
+      "id": "TPS-17",
+      "source": "police",
+      "type": "DISORDERLIES",
+      "time": "2026-10-21T21:06:30Z",
+      "address": "BLUE JAYS WAY - CLARENCE SQ",
+      "lat": 43.64444038354406,
+      "lon": -79.39313083638304,
+      "detail": "Division D52"
+    },
+    {
+      "id": "TPS-19",
+      "source": "police",
+      "type": "PERSONAL INJURY COLLISION",
+      "time": "2026-10-21T21:06:26Z",
+      "address": "KINGSTON RD - ST CLAIR AVE E",
+      "lat": 43.72194969498359,
+      "lon": -79.23624403634537,
+      "detail": "Division D43"
+    },
+    {
+      "id": "TPS-18",
+      "source": "police",
+      "type": "PERSON WITH A KNIFE",
+      "time": "2026-10-21T21:04:42Z",
+      "address": "SHOREHAM DR - HULLMAR DR",
+      "lat": 43.76882118405517,
+      "lon": -79.5203587127037,
+      "detail": "Division D31"
+    },
+    {
+      "id": "F26168022",
+      "source": "fire",
+      "type": "Fire -  Highrise Residential",
+      "time": "2026-10-21T20:56:49Z",
+      "address": "JANE ST, NY · FIRGROVE CRES / YEWTREE BLVD",
+      "lat": null,
+      "lon": null,
+      "detail": "Alarm 0 · Units A142, A411, C11, C14, HR114, HZ145, HZ145, LA111, LA421, P112, P142, P146, P411, P411, R133, S143"
+    },
+    {
+      "id": "F26168121",
+      "source": "fire",
+      "type": "Fire - Commercial/Industrial",
+      "time": "2026-10-21T23:41:31Z",
+      "address": "CANVARCO RD, EY · LAIRD DR",
+      "lat": null,
+      "lon": null,
+      "detail": "Alarm 2 · Units A125, A135, C13, C30, C31, C32, C33, CMD30, CMD30C, HR332, HZ323, L312, L325, LA325, P123, P125, P134, P224, P233, P321, P323, P333, R122, R235, REHAB01, S313"
+    },
+    {
+      "id": "F26168144",
+      "source": "fire",
+      "type": "Rescue - Water/Ice - No Fireboat",
+      "time": "2026-10-22T00:28:48Z",
+      "address": "ASHBRIDGES BAY PARK RD / LAKE SHORE BLVD E",
+      "lat": null,
+      "lon": null,
+      "detail": "Alarm 0 · Units C20, C22, L331, P313, P326, P331, R227, S143, S232, S331"
+    },
+    {
+      "id": "F26168149",
+      "source": "fire",
+      "type": "Vehicle - Personal Injury Highway",
+      "time": "2026-10-22T00:38:30Z",
+      "address": "Location withheld",
+      "lat": null,
+      "lon": null,
+      "detail": "Alarm 0 · Units P415, R441"
+    },
+    {
+      "id": "F26168150",
+      "source": "fire",
+      "type": "Fire - Residential",
+      "time": "2026-10-22T00:38:24Z",
+      "address": "CRAWFORD ST, TT · TRINITY BELLWOODS PARK TRL / LOBB AVE",
+      "lat": null,
+      "lon": null,
+      "detail": "Alarm 0 · Units C34, C42, L331, LA421, P315, P331, P334, P426, S331"
+    },
+    {
+      "id": "F26168152",
+      "source": "fire",
+      "type": "Fire - Grass/Rubbish",
+      "time": "2026-10-22T00:40:45Z",
+      "address": "HEXHAM DR, SC · SURREY AVE",
+      "lat": null,
+      "lon": null,
+      "detail": "Alarm 0 · Units P222"
+    },
+    {
+      "id": "F26168153",
+      "source": "fire",
+      "type": "Fire -  Highrise Residential",
+      "time": "2026-10-22T00:42:12Z",
+      "address": "THORNCLIFFE PARK DR, EY · OVERLEA BLVD / LEASIDE PARK TRL",
+      "lat": null,
+      "lon": null,
+      "detail": "Alarm 0 · Units A322, C11, C24, HR114, L226, LA111, P311, P312, P313, P324, S232"
+    },
+    {
+      "id": "F26168155",
+      "source": "fire",
+      "type": "Vehicle - Personal Injury",
+      "time": "2026-10-22T00:42:33Z",
+      "address": "BLOOR ST E / PARK RD",
+      "lat": null,
+      "lon": null,
+      "detail": "Alarm 0 · Units R325"
+    },
+    {
+      "id": "F26168158",
+      "source": "fire",
+      "type": "Rescue - Elevator",
+      "time": "2026-10-22T00:46:50Z",
+      "address": "JANE ST, NY · CHALKFARM DR / TROUTBROOKE DR",
+      "lat": null,
+      "lon": null,
+      "detail": "Alarm 0 · Units P146, P421, S143"
+    },
+    {
+      "id": "F26168159",
+      "source": "fire",
+      "type": "Fire - Residential",
+      "time": "2026-10-22T00:48:00Z",
+      "address": "CUTLER CRES, ET · MITCHAM DR / BROWN'S LINE",
+      "lat": null,
+      "lon": null,
+      "detail": "Alarm 0 · Units A432, C43, C44, LA231, P432, P435, R434, S445"
+    },
+    {
+      "id": "F26168160",
+      "source": "fire",
+      "type": "MEDICAL",
+      "time": "2026-10-22T00:48:39Z",
+      "address": "M1C",
+      "lat": null,
+      "lon": null,
+      "detail": "Alarm 0 · Units P212"
+    },
+    {
+      "id": "F26168161",
+      "source": "fire",
+      "type": "Alarm Single Source",
+      "time": "2026-10-22T00:51:59Z",
+      "address": "WESTON RD, YK · ELPHICK LANE / COULTER AVE",
+      "lat": null,
+      "lon": null,
+      "detail": "Alarm 0 · Units P442, P443"
+    },
+    {
+      "id": "F26168162",
+      "source": "fire",
+      "type": "MEDICAL",
+      "time": "2026-10-22T00:53:36Z",
+      "address": "M9V",
+      "lat": null,
+      "lon": null,
+      "detail": "Alarm 0 · Units R413"
+    },
+    {
+      "id": "F26168163",
+      "source": "fire",
+      "type": "Alarm Single Source",
+      "time": "2026-10-22T00:54:56Z",
+      "address": "FRONT ST, TT · SPADINA AVE / DRAPER ST",
+      "lat": null,
+      "lon": null,
+      "detail": "Alarm 0 · Units P314, P332"
+    }
+  ]
+}
